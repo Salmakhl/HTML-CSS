@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>inscription</title>
+    <style>
+        label {display: inline-block;min-width: 200px;}
+    </style>
+</head>
+<body>
+    <h1> Veuillez vous identifier </h1>
+    <form method="post">
+    <label for="login">votre nom: </label>
+    <input type="text" name="nom" id="nom" maxlength="20" required><br>
+    <label for="login">votre prénom: </label>
+    <input type="text" name="prénom" id="prenom" maxlength="20" required><br>
+    <label for="age"> age: </label>
+    <input type="age" name="age" id="age" required><br>
+    <label for="sexe">votre sexe: </label>
+    <input type="radio" id="male" name="sexe" value="masculin">
+    <label for="male">masculin</label><br>
+    <input type="radio" id="female" name="sexe" value="féminin" >
+    <label for="female">féminin</label><br>
+    <input type="checkbox" id="bac" name="bac" value="bac">
+    <label for="bac">bac</label><br>  *
+    <input type="checkbox" id="licence" name="licence" value="licence">
+    <label for="license">licence</label><br>
+    <input type="checkbox" id="master" name="master" value="master">
+    <label for="bac">master</label><br>
+    <select id="votre stage" name="votre stage :" size="4" multiple>
+        <option value="DEVLLOPEMENT">DEVLLOPEMENT</option>
+        <option value="GESTION">GESTION</option>
+        <option value="reseau">reseau</option>
+        
+     </select><br></br>   
+    <input type="submit" value="envoyer">
+    </div> 
+    
+</body>
+</html>

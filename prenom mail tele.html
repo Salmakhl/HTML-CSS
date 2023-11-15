@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>validation de formulaires</title>
+    <style>
+        label {display: inline-block;min-width: 200px;}
+    </style>
+</head>
+<body>
+    <h1>validation de formulaires en HTML</h1>
+    <form method="post">
+        <label for="prenom">Enter votre prénom svp: </label>
+        <input type="text" name="prénom" id="prenom" maxlength="20" required><br>
+        <label for="mail"> Entrer votre mail: </label>
+        <input for="mail" name="mail" id="mail" required><br>
+        <label for="tel">Numéro de téléphone: </label>
+        <input type="tel" name="tel" id="tel" required><br>
+        <input type="submit" value="valider">
+    </form>
+    
+</body>
+</html>
